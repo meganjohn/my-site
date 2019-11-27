@@ -1,0 +1,34 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+  /* border-bottom: 1.5px solid #00001a; */
+  padding: 8px 12px 5px 12px;
+  font-size: 19px;
+}
+
+.navBar a {
+  padding: 0px 5px;
+  text-decoration: none;
+  color: #1a8cff;
+}
+
+.navBar a:hover {
+  color: #99ccff;
+}
+
+.homeLink {
+  font-size: 20px;
+}
+
+.shadow {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(#666699, #f0f0f5);
+}
