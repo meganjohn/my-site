@@ -33,8 +33,26 @@ body {
 }
 
 .bannerImg {
-  width: 100%;
-  height: 33%;
-  background-image: url("/assets/images/christiana-rivers-02MLReRp3I8-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("https://meganjohn.co.uk/assets/images/timothy-eberly-gn8LE4uL5PE-unsplash.jpg");
   background-size: cover;
+  background-position: 57% bottom;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.bannerImg a {
+  padding: 10% 0;
+  font-size: 8vw;
+  color: white;
+  font-weight: bold;
+  text-shadow:
+   -0.5px -0.5px 0 black,  
+    0.5px -0.5px 0 black,
+    -0.5px 0.5px 0 black,
+     0.5px 0.5px 0 black;
+  filter: brightness(100);
 }
