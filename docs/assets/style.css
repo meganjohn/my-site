@@ -4,6 +4,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.stickyNavBar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -41,18 +48,10 @@ body {
   background-size: cover;
   background-position: 57% bottom;
   width: 100%;
+  padding-top: 30%;
   opacity: 0.5;
 }
 
-.bannerImg a {
-  padding: 10% 0;
-  font-size: 8vw;
-  color: white;
-  font-weight: bold;
-  text-shadow:
-   -0.5px -0.5px 0 black,  
-    0.5px -0.5px 0 black,
-    -0.5px 0.5px 0 black,
-     0.5px 0.5px 0 black;
-  filter: brightness(100);
+.mainBody {
+  margin: 5% 10%;
 }
