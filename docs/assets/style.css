@@ -4,6 +4,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .stickyNavBar {
   position: sticky;
   top: 0;
@@ -15,11 +19,14 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #FFF;
+  height: 25px;
   padding: 8px 12px 5px 12px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .navBar a {
+  display: flex;
+  align-content: center;
   padding: 0px 5px;
   text-decoration: none;
   color: #1a8cff;
@@ -29,8 +36,23 @@ body {
   color: #99ccff;
 }
 
-.homeLink {
+.home-link {
   font-size: 20px;
+}
+
+.nav-bar-elements {
+  padding-top: 3px;
+}
+
+#twitter-logo {
+  position: relative;
+  bottom: 1px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+#contact-me {
+  margin-left: 3px;
 }
 
 .shadow {
@@ -54,4 +76,16 @@ body {
 
 .mainBody {
   margin: 5% 10%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  font-size: small;
+  color: #1a8cff;
+}
+
+footer div {
+  padding: 0px 5px;
 }
