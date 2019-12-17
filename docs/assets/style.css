@@ -95,6 +95,13 @@ a:active {
   justify-content: center;
 }
 
+.emphasised {
+  font-size: 20px;
+  color: #1a8cff;
+  font-weight: bold;
+  text-align: center;
+}
+
 footer {
   display: flex;
   justify-content: center;
