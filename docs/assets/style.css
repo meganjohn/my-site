@@ -73,17 +73,24 @@ a:active {
   background: linear-gradient(#666699, #f0f0f5);
 }
 
-.bannerImg {
+.banner-box {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url("https://meganjohn.co.uk/assets/images/timothy-eberly-gn8LE4uL5PE-unsplash.jpg");
   background-size: cover;
   background-position: 57% bottom;
   width: 100%;
   padding-top: 30%;
   opacity: 0.5;
+}
+
+.homepage-banner-image {
+  background-image: url("https://meganjohn.co.uk/assets/images/timothy-eberly-gn8LE4uL5PE-unsplash.jpg");
+}
+
+.talk-anxiety-banner-image {
+  background-image: url("https://meganjohn.co.uk/assets/images/green-chameleon-s9CC2SKySJM-unsplash.jpg");
 }
 
 .mainBody {
