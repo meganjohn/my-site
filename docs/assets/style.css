@@ -5,6 +5,12 @@ body {
   color: black;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 2em;
+}
+
 a {
   text-decoration: none;
   color: #1a8cff;
@@ -93,8 +99,21 @@ a:active {
   background-image: url("https://meganjohn.co.uk/assets/images/green-chameleon-s9CC2SKySJM-unsplash-cropped.jpg");
 }
 
+.dear-me-banner-image {
+  background-image: url("https://meganjohn.co.uk/assets/images/debby-hudson-DR31squbFoA-unsplash.jpg");
+}
+
 .main-body {
   margin: 2% 8%;
+}
+
+.main-body > * + * {
+  margin-top: 1.5em;
+}
+
+.page-title {
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .centered {
