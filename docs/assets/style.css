@@ -5,6 +5,12 @@ body {
   color: black;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 2em;
+}
+
 a {
   text-decoration: none;
   color: #1a8cff;
@@ -91,6 +97,10 @@ a:active {
 
 .talk-anxiety-banner-image {
   background-image: url("https://meganjohn.co.uk/assets/images/green-chameleon-s9CC2SKySJM-unsplash-cropped.jpg");
+}
+
+.dear-me-banner-image {
+  background-image: url("https://meganjohn.co.uk/assets/images/debby-hudson-DR31squbFoA-unsplash.jpg");
 }
 
 .main-body {
