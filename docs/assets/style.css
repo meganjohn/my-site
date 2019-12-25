@@ -97,6 +97,15 @@ a:active {
   margin: 2% 8%;
 }
 
+.main-body > * + * {
+  margin-top: 1.5em;
+}
+
+.page-title {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
 .centered {
   display: flex;
   justify-content: center;
